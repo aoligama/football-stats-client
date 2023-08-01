@@ -16,5 +16,5 @@ let standings = try await client.fetchStandings(competitionId: 2021, filterOptio
 ### Fetch Top Scorers 
 Fetch top scorers for Spanish La Liga on season 2020/2021
 ```swift
-let scorers = try await client.fetchTopScorers(competitionId: 2014, filterOption: .year(2020)
+let scorers = try await client.fetchTopScorers(competitionId: 2014, filterOption: .year(2020))
 ```
